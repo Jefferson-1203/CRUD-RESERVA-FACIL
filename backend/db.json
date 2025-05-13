@@ -1,0 +1,26 @@
+{
+  "reservas": [
+    {
+      "id": "1747098566806",
+      "nomeHospede": "jefferson",
+      "email": "ifhsduhsdhufh@gmail.com",
+      "quarto": "112",
+      "tipoQuarto": "Suíte",
+      "dataEntrada": "2025-03-12",
+      "dataSaida": "2025-03-14",
+      "status": "confirmada",
+      "dataCriacao": "2025-05-13T01:09:26.806Z"
+    },
+    {
+      "id": "1747098666178",
+      "nomeHospede": "Yuri Dantas",
+      "email": "Yuridantas@gmail.com",
+      "quarto": "113",
+      "tipoQuarto": "Deluxe",
+      "dataEntrada": "2025-04-25",
+      "dataSaida": "2025-04-28",
+      "status": "confirmada",
+      "dataCriacao": "2025-05-13T01:11:06.178Z"
+    }
+  ]
+}

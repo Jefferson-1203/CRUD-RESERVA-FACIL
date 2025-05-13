@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Reservas - Hotel Luxo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1> Reserva Fácil </h1>
+      <p>Sistema de Gerenciamento de Reservas</p>
+    </header>
+
+    <div class="content">
+      <section class="form-section">
+        <h2>Nova Reserva</h2>
+        <form id="reservaForm">
+          <input type="text" id="nomeHospede" placeholder="Nome completo" required>
+          <input type="email" id="email" placeholder="E-mail" required>
+          <input type="text" id="quarto" placeholder="Número do quarto" required>
+          
+          <select id="tipoQuarto" required>
+            <option value="">Selecione o tipo</option>
+            <option value="Standard">Standard</option>
+            <option value="Deluxe">Deluxe</option>
+            <option value="Suíte">Suíte</option>
+          </select>
+          
+          <div class="date-group">
+            <label for="dataEntrada">Entrada:</label>
+            <input type="date" id="dataEntrada" required>
+            
+            <label for="dataSaida">Saída:</label>
+            <input type="date" id="dataSaida" required>
+          </div>
+          
+          <button type="submit" id="btnSalvar">Salvar Reserva</button>
+          <button type="button" id="btnCancelar" class="secondary">Cancelar</button>
+        </form>
+      </section>
+
+      <section class="list-section">
+        <h2>Reservas Ativas</h2>
+        <div class="filters">
+          <input type="text" id="searchInput" placeholder="Buscar por nome...">
+          <select id="statusFilter">
+            <option value="all">Todos status</option>
+            <option value="confirmada">Confirmadas</option>
+            <option value="cancelada">Canceladas</option>
+          </select>
+        </div>
+        
+        <div id="reservasList"></div>
+      </section>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

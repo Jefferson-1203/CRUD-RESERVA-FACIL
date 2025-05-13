@@ -17,8 +17,8 @@ Git (opcional)
 
 🚀 Como Rodar o Projeto Localmente
 1. Clone o repositório: 
-git clone https://github.com/Jefferson-1203/sneakerhub.git
-cd sneakerhub
+git clone https://github.com/Jefferson-1203/CRUD-RESERVA-FACIL.git
+cd hotel-reservation-system
 
 2. Instale as dependências no backend:
 npm install
